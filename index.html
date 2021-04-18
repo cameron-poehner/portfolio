@@ -39,8 +39,12 @@
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Cameron Poehner</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Software Engineer</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#projects">My Projects</a>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">SOFTWARE ENGINEER</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#projects">Projects</a>
+                    <a class="btn btn-primary js-scroll-trigger" href="assets/CameronPoehnerResume.pdf" target="_blank" download>&nbsp;Resume&nbsp;</a>
+                    <a class="btn btn-primary js-scroll-trigger" href="mailto:cameronpoehner@gmail.com">&nbsp;Email&nbsp;&nbsp;</a>
+
+
                 </div>
             </div>
         </header>
@@ -50,7 +54,7 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-white mb-4">About</h2>
-                        <p class="text-white-50">
+                        <p class="text-white-50 h5">
                             Software Engineer with a proven ability to collaborate with clients 
                             and team members to design, develop, and deliver beautiful, 
                             reusable UI components that satisfy all customer needs. 
@@ -100,7 +104,32 @@
                                                                   Engineered in React.</p>
                                         
                                     <a class="btn btn-sm btn-primary js-scroll-trigger demo" href="https://drumchurchpdx.com/" target="_blank">Demo</a>
-                                    <a class="btn btn-sm btn-primary js-scroll-trigger demo" href="" target="_blank">Code</a>
+                                    <button type="button" class="btn btn-sm btn-primary js-scroll-trigger demo" data-toggle="modal" data-target="#drumChurchModal">
+                                        code
+                                      </button>
+                                      <div class="modal fade" id="drumChurchModal" tabindex="-1" aria-labelledby="drumChurchModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="drumChurchModalLabel">Sorry, that's private!</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                              I designed and engineered this website to help a fledgling nonprofit called <i>Drum Church</i>
+                                              establish their digital presence and increase outreach. Designed in Figma and engineered with React 
+                                              this site uses React router for conditional rendering minimizing the server load while implementing 
+                                              EmailJS with NPM to allow users the ability to contact the organizaiton directly while maintaining 
+                                              serverless hosting with Netlify and cutting cost by 25%.
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              <a class="btn btn-primary js-scroll-trigger" href="mailto:cameronpoehner@gmail.com" target="_blank">Email</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>                                
                                 </div>
                             </div>
                         </div>
@@ -114,13 +143,39 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Jonathan Sherrill Music</h4>
-                                    <p class="mb-0 py-0 text-white-50">Client services website. <br />
-                                                                    Designed in Figma. <br />
-                                                                    Engineered in React. <br /> 
+                                    <p class="mb-0 py-0 text-white-50">Professional services website. <br />
+                                                                       Designed in Figma. <br />
+                                                                       Engineered in React. <br /> 
                                                                     
                                     </p>
                                     <a class="btn btn-sm btn-primary js-scroll-trigger demo" href="https://www.jonathansherrillmusic.com/" target="_blank">Demo</a>
-                                    <a class="btn btn-sm btn-primary js-scroll-trigger demo" href="" target="_blank">Code</a>
+                                    <button type="button" class="btn btn-sm btn-primary js-scroll-trigger demo" data-toggle="modal" data-target="#jonathanSherrillModal">
+                                        code
+                                      </button>
+                                      <div class="modal fade" id="jonathanSherrillModal" tabindex="-1" aria-labelledby="jonathanSherrillModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="jonathanSherrillModalLabel">Sorry, that's private!</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body text-lg-left">
+                                              This is a professional services website I redesigned for a freelance client with Figma. 
+                                              Architechted with React and implemented React Router for dynamic rendering with Material-UI 
+                                              styled components and customized with CSS. Integrated Calendly third party service with NPM
+                                              to deliver convenient scheduling increasing sales conversion 300%. 
+                                              Plese reach out to learn more!
+
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              <a class="btn btn-primary js-scroll-trigger" href="mailto:cameronpoehner@gmail.com" target="_blank">Email</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div> 
                                 </div>
                             </div>
                         </div>
